@@ -166,13 +166,84 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| — | — | Pending |
+| FOUND-01 | Phase 1 | Pending |
+| FOUND-02 | Phase 1 | Pending |
+| FOUND-03 | Phase 1 | Pending |
+| FOUND-04 | Phase 1 | Pending |
+| FOUND-05 | Phase 1 | Pending |
+| FOUND-06 | Phase 1 | Pending |
+| FOUND-07 | Phase 1 | Pending |
+| FOUND-08 | Phase 1 | Pending |
+| HERO-01 | Phase 2 | Pending |
+| HERO-02 | Phase 2 | Pending |
+| HERO-03 | Phase 2 | Pending |
+| HERO-04 | Phase 2 | Pending |
+| HERO-05 | Phase 2 | Pending |
+| SKILL-01 | Phase 2 | Pending |
+| SKILL-02 | Phase 2 | Pending |
+| SKILL-03 | Phase 2 | Pending |
+| SKILL-04 | Phase 2 | Pending |
+| WORK-01 | Phase 2 | Pending |
+| WORK-02 | Phase 2 | Pending |
+| WORK-03 | Phase 2 | Pending |
+| WORK-04 | Phase 2 | Pending |
+| EDU-01 | Phase 2 | Pending |
+| EDU-02 | Phase 2 | Pending |
+| EDU-03 | Phase 2 | Pending |
+| EDU-04 | Phase 2 | Pending |
+| PROJ-01 | Phase 2 | Pending |
+| PROJ-02 | Phase 2 | Pending |
+| PROJ-03 | Phase 2 | Pending |
+| PROJ-04 | Phase 2 | Pending |
+| PROJ-05 | Phase 2 | Pending |
+| PROJ-06 | Phase 2 | Pending |
+| PROJ-07 | Phase 2 | Pending |
+| ABOUT-01 | Phase 2 | Pending |
+| ABOUT-02 | Phase 2 | Pending |
+| ABOUT-03 | Phase 2 | Pending |
+| ABOUT-04 | Phase 2 | Pending |
+| CONTACT-01 | Phase 2 | Pending |
+| CONTACT-02 | Phase 2 | Pending |
+| CONTACT-03 | Phase 2 | Pending |
+| CONTACT-04 | Phase 2 | Pending |
+| CONTACT-05 | Phase 2 | Pending |
+| ANIM-01 | Phase 3 | Pending |
+| ANIM-02 | Phase 3 | Pending |
+| ANIM-03 | Phase 3 | Pending |
+| ANIM-04 | Phase 3 | Pending |
+| ANIM-05 | Phase 3 | Pending |
+| ANIM-06 | Phase 3 | Pending |
+| ANIM-07 | Phase 3 | Pending |
+| ANIM-08 | Phase 3 | Pending |
+| ANIM-09 | Phase 3 | Pending |
+| ANIM-10 | Phase 3 | Pending |
+| SEO-01 | Phase 3 | Pending |
+| SEO-02 | Phase 3 | Pending |
+| SEO-03 | Phase 3 | Pending |
+| SEO-04 | Phase 3 | Pending |
+| SEO-05 | Phase 3 | Pending |
+| SEO-06 | Phase 3 | Pending |
+| SEO-07 | Phase 3 | Pending |
+| A11Y-01 | Phase 3 | Pending |
+| A11Y-02 | Phase 3 | Pending |
+| A11Y-03 | Phase 3 | Pending |
+| A11Y-04 | Phase 3 | Pending |
+| A11Y-05 | Phase 3 | Pending |
+| A11Y-06 | Phase 3 | Pending |
+| A11Y-07 | Phase 3 | Pending |
+| PERF-01 | Phase 3 | Pending |
+| PERF-02 | Phase 3 | Pending |
+| PERF-03 | Phase 3 | Pending |
+| PERF-04 | Phase 3 | Pending |
+| PERF-05 | Phase 3 | Pending |
+| PERF-06 | Phase 3 | Pending |
+| PERF-07 | Phase 3 | Pending |
 
 **Coverage:**
-- v1 requirements: 0 total
-- Mapped to phases: 0
-- Unmapped: 0 ⚠️
+- v1 requirements: 77 total
+- Mapped to phases: 77
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-01-27*
-*Last updated: 2026-01-27 after initial definition*
+*Last updated: 2026-01-27 after roadmap creation*
