@@ -35,6 +35,12 @@ This roadmap delivers a playful, interactive portfolio website that impresses re
 
 **Completion:** Phase complete when all 5 success criteria verified and all FOUND requirements met.
 
+**Plans:** 2 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — Scaffold Next.js 16 with Tailwind v4 and dark/light theme system
+- [ ] 01-02-PLAN.md — Sticky navigation header with responsive mobile menu
+
 ---
 
 ### Phase 2: Core Content & Sections
@@ -166,13 +172,13 @@ This roadmap delivers a playful, interactive portfolio website that impresses re
 
 | Phase | Status | Requirements | Completed | Progress |
 |-------|--------|--------------|-----------|----------|
-| 1 - Foundation & Setup | Pending | 8 | 0/8 | 0% |
+| 1 - Foundation & Setup | Planned | 8 | 0/8 | 0% |
 | 2 - Core Content & Sections | Pending | 38 | 0/38 | 0% |
 | 3 - Interactivity & Polish | Pending | 31 | 0/31 | 0% |
 
 **Overall:** 0/77 requirements completed (0%)
 
-**Next Action:** Begin Phase 1 with `/gsd:plan-phase 1`
+**Next Action:** Execute Phase 1 with `/gsd:execute-phase 1`
 
 ---
 
@@ -194,4 +200,4 @@ This roadmap delivers a playful, interactive portfolio website that impresses re
 ---
 
 *Roadmap created: 2026-01-27*
-*Ready for execution: `/gsd:plan-phase 1`*
+*Phase 1 planned: 2026-01-28*
