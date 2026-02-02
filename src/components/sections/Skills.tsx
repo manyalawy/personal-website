@@ -1,4 +1,47 @@
 import { portfolio } from "@/data/portfolio";
+import { IconType } from "react-icons";
+import {
+  SiReact,
+  SiNextdotjs,
+  SiTypescript,
+  SiJavascript,
+  SiTailwindcss,
+  SiHtml5,
+  SiCss3,
+  SiFramer,
+  SiNodedotjs,
+  SiExpress,
+  SiPython,
+  SiPostgresql,
+  SiMongodb,
+  SiGraphql,
+  SiGit,
+  SiDocker,
+  SiVisualstudiocode,
+  SiFigma,
+} from "react-icons/si";
+
+// Map skill icon names to their corresponding react-icons components
+const iconMap: Record<string, IconType> = {
+  react: SiReact,
+  nextjs: SiNextdotjs,
+  typescript: SiTypescript,
+  javascript: SiJavascript,
+  tailwindcss: SiTailwindcss,
+  html5: SiHtml5,
+  css3: SiCss3,
+  framer: SiFramer,
+  nodejs: SiNodedotjs,
+  express: SiExpress,
+  python: SiPython,
+  postgresql: SiPostgresql,
+  mongodb: SiMongodb,
+  graphql: SiGraphql,
+  git: SiGit,
+  docker: SiDocker,
+  vscode: SiVisualstudiocode,
+  figma: SiFigma,
+};
 
 export default function Skills() {
   // Group skills by category
@@ -30,22 +73,31 @@ export default function Skills() {
                 {category}
               </h3>
               <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-4">
-                {skills.map((skill) => (
-                  <div
-                    key={skill.name}
-                    className="flex flex-col items-center justify-center p-3 md:p-4 bg-surface-secondary border border-border rounded-lg hover:border-accent transition-colors"
-                  >
-                    {/* Icon placeholder - uses first 2 letters of skill name */}
-                    <div className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-accent/10 flex items-center justify-center mb-2">
-                      <span className="text-accent font-bold text-sm md:text-base">
-                        {skill.name.substring(0, 2).toUpperCase()}
+                {skills.map((skill) => {
+                  // Get the icon component from the map, or null if not found
+                  const IconComponent = iconMap[skill.icon];
+
+                  return (
+                    <div
+                      key={skill.name}
+                      className="flex flex-col items-center justify-center p-3 md:p-4 bg-surface-secondary border border-border rounded-lg hover:border-accent transition-colors"
+                    >
+                      {/* Display actual technology logo or fallback to 2-letter placeholder */}
+                      <div className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-accent/10 flex items-center justify-center mb-2">
+                        {IconComponent ? (
+                          <IconComponent className="w-7 h-7 md:w-8 md:h-8 text-accent" />
+                        ) : (
+                          <span className="text-accent font-bold text-sm md:text-base">
+                            {skill.name.substring(0, 2).toUpperCase()}
+                          </span>
+                        )}
+                      </div>
+                      <span className="text-sm text-text-primary text-center font-medium">
+                        {skill.name}
                       </span>
                     </div>
-                    <span className="text-sm text-text-primary text-center font-medium">
-                      {skill.name}
-                    </span>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
           ))}
