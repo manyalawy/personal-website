@@ -10,6 +10,14 @@
   --color-text-secondary: #6b7280;
   --color-accent: #2563eb;
   --color-border: #e5e7eb;
+
+  /* Register colors with Tailwind */
+  --color-surface: #ffffff;
+  --color-surface-secondary: #f9fafb;
+  --color-text-primary: #111827;
+  --color-text-secondary: #6b7280;
+  --color-accent: #2563eb;
+  --color-border: #e5e7eb;
 }
 
 /* Dark theme overrides via .dark class */
@@ -20,6 +28,39 @@
   --color-text-secondary: #94a3b8;
   --color-accent: #3b82f6;
   --color-border: #334155;
+}
+
+/* Explicit utility classes for theme-aware colors */
+.text-text-primary {
+  color: var(--color-text-primary);
+}
+
+.text-text-secondary {
+  color: var(--color-text-secondary);
+}
+
+.text-accent {
+  color: var(--color-accent);
+}
+
+.bg-surface {
+  background-color: var(--color-surface);
+}
+
+.bg-surface-secondary {
+  background-color: var(--color-surface-secondary);
+}
+
+.border-border {
+  border-color: var(--color-border);
+}
+
+.hover\:text-text-primary:hover {
+  color: var(--color-text-primary);
+}
+
+.hover\:text-accent:hover {
+  color: var(--color-accent);
 }
 
 /* Smooth theme transition */
