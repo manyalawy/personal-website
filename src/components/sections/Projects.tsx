@@ -21,9 +21,19 @@ export default function Projects() {
               key={index}
               className="bg-surface-secondary rounded-xl overflow-hidden p-5 md:p-6 flex flex-col"
             >
-              {/* Optional icon/emoji at top */}
-              {project.icon && (
-                <div className="text-4xl mb-4">{project.icon}</div>
+              {/* Project logo/icon */}
+              {project.logo ? (
+                <div className="w-12 h-12 mb-4 rounded-lg overflow-hidden bg-surface flex items-center justify-center">
+                  <img
+                    src={project.logo}
+                    alt={`${project.title} logo`}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+              ) : (
+                <div className="w-12 h-12 mb-4 rounded-lg bg-gradient-to-br from-accent/20 to-accent/5 flex items-center justify-center">
+                  <div className="w-6 h-6 rounded bg-accent/30" />
+                </div>
               )}
 
               {/* Project title */}

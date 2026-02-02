@@ -38,6 +38,7 @@ export interface Project {
   liveUrl?: string;
   repoUrl?: string;
   icon?: string;
+  logo?: string; // URL to project logo image
 }
 
 export interface About {
