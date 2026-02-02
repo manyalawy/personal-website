@@ -17,7 +17,6 @@ import {
   SiGraphql,
   SiGit,
   SiDocker,
-  SiVisualstudiocode,
   SiFigma,
 } from "react-icons/si";
 
@@ -39,8 +38,8 @@ const iconMap: Record<string, IconType> = {
   graphql: SiGraphql,
   git: SiGit,
   docker: SiDocker,
-  vscode: SiVisualstudiocode,
   figma: SiFigma,
+  // vscode doesn't have a logo in react-icons/si, will use fallback
 };
 
 export default function Skills() {
