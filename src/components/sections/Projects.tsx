@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="py-24 md:py-32 px-4 md:px-8 lg:px-16 scroll-mt-16"
+      className="bg-surface-secondary py-24 md:py-32 px-4 md:px-8 lg:px-16 scroll-mt-16"
     >
       <div className="max-w-6xl mx-auto">
         {/* Section heading */}

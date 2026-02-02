@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="py-24 md:py-32 px-4 md:px-8 lg:px-16 scroll-mt-16"
+      className="bg-surface py-24 md:py-32 px-4 md:px-8 lg:px-16 scroll-mt-16"
     >
       <div className="max-w-4xl mx-auto">
         {/* Section heading */}

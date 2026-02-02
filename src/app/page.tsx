@@ -26,14 +26,10 @@ export default function Home() {
         <Education />
 
         {/* Projects Section - bg-surface-secondary */}
-        <div className="bg-surface-secondary">
-          <Projects />
-        </div>
+        <Projects />
 
         {/* Contact Section - bg-surface */}
-        <div className="bg-surface">
-          <Contact />
-        </div>
+        <Contact />
       </main>
     </div>
   );
