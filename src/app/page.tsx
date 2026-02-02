@@ -1,68 +1,39 @@
+import Hero from "@/components/sections/Hero";
+import About from "@/components/sections/About";
+import Skills from "@/components/sections/Skills";
+import Experience from "@/components/sections/Experience";
+import Education from "@/components/sections/Education";
+import Projects from "@/components/sections/Projects";
+import Contact from "@/components/sections/Contact";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-surface">
       <main>
-        {/* Hero Section */}
-        <section id="hero" className="min-h-screen flex items-center justify-center px-4 md:px-8 lg:px-16 scroll-mt-16">
-          <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-text-primary mb-4">
-              Portfolio
-            </h1>
-            <p className="text-base md:text-lg lg:text-xl text-text-secondary">
-              Welcome to my personal portfolio
-            </p>
-          </div>
-        </section>
+        {/* Hero Section - full viewport, bg-surface */}
+        <Hero />
 
-        {/* About Section */}
-        <section id="about" className="min-h-[70vh] flex items-center justify-center px-4 md:px-8 lg:px-16 bg-surface-secondary scroll-mt-16">
-          <div className="text-center max-w-4xl mx-auto">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-text-primary mb-4">
-              About
-            </h2>
-            <p className="text-text-secondary text-sm md:text-base lg:text-lg">Content coming soon</p>
-          </div>
-        </section>
+        {/* About Section - bg-surface-secondary */}
+        <About />
 
-        {/* Skills Section */}
-        <section id="skills" className="min-h-[70vh] flex items-center justify-center px-4 md:px-8 lg:px-16 scroll-mt-16">
-          <div className="text-center max-w-4xl mx-auto">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-text-primary mb-4">
-              Skills
-            </h2>
-            <p className="text-text-secondary text-sm md:text-base lg:text-lg">Content coming soon</p>
-          </div>
-        </section>
+        {/* Skills Section - bg-surface */}
+        <Skills />
 
-        {/* Experience Section */}
-        <section id="experience" className="min-h-[70vh] flex items-center justify-center px-4 md:px-8 lg:px-16 bg-surface-secondary scroll-mt-16">
-          <div className="text-center max-w-4xl mx-auto">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-text-primary mb-4">
-              Experience
-            </h2>
-            <p className="text-text-secondary text-sm md:text-base lg:text-lg">Content coming soon</p>
-          </div>
-        </section>
+        {/* Experience Section - bg-surface-secondary */}
+        <Experience />
 
-        {/* Projects Section */}
-        <section id="projects" className="min-h-[70vh] flex items-center justify-center px-4 md:px-8 lg:px-16 scroll-mt-16">
-          <div className="text-center max-w-4xl mx-auto">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-text-primary mb-4">
-              Projects
-            </h2>
-            <p className="text-text-secondary text-sm md:text-base lg:text-lg">Content coming soon</p>
-          </div>
-        </section>
+        {/* Education Section - bg-surface */}
+        <Education />
 
-        {/* Contact Section */}
-        <section id="contact" className="min-h-[70vh] flex items-center justify-center px-4 md:px-8 lg:px-16 bg-surface-secondary scroll-mt-16">
-          <div className="text-center max-w-4xl mx-auto">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-text-primary mb-4">
-              Contact
-            </h2>
-            <p className="text-text-secondary text-sm md:text-base lg:text-lg">Content coming soon</p>
-          </div>
-        </section>
+        {/* Projects Section - bg-surface-secondary */}
+        <div className="bg-surface-secondary">
+          <Projects />
+        </div>
+
+        {/* Contact Section - bg-surface */}
+        <div className="bg-surface">
+          <Contact />
+        </div>
       </main>
     </div>
   );
