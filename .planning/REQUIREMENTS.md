@@ -9,14 +9,14 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Foundation
 
-- [ ] **FOUND-01**: Site is fully responsive across mobile (320px+), tablet (768px+), and desktop (1024px+)
-- [ ] **FOUND-02**: Mobile-first CSS approach with breakpoint system
-- [ ] **FOUND-03**: Dark mode and light mode themes with smooth transitions
-- [ ] **FOUND-04**: Theme toggle component accessible from any page
-- [ ] **FOUND-05**: User theme preference persists across browser sessions
-- [ ] **FOUND-06**: Site loads with Core Web Vitals targets (FCP <1.8s, CLS <0.1)
-- [ ] **FOUND-07**: Sticky navigation header with smooth scroll to sections
-- [ ] **FOUND-08**: Next.js 16 with Static Site Generation (SSG) for all pages
+- [x] **FOUND-01**: Site is fully responsive across mobile (320px+), tablet (768px+), and desktop (1024px+)
+- [x] **FOUND-02**: Mobile-first CSS approach with breakpoint system
+- [x] **FOUND-03**: Dark mode and light mode themes with smooth transitions
+- [x] **FOUND-04**: Theme toggle component accessible from any page
+- [x] **FOUND-05**: User theme preference persists across browser sessions
+- [x] **FOUND-06**: Site loads with Core Web Vitals targets (FCP <1.8s, CLS <0.1)
+- [x] **FOUND-07**: Sticky navigation header with smooth scroll to sections
+- [x] **FOUND-08**: Next.js 16 with Static Site Generation (SSG) for all pages
 
 ### Hero Section
 
