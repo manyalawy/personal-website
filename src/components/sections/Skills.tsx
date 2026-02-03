@@ -21,10 +21,21 @@ import {
   SiGit,
   SiDocker,
   SiFigma,
+  SiPhp,
+  SiSpring,
+  SiDjango,
+  SiFastapi,
+  SiLaravel,
+  SiMysql,
+  SiRedis,
+  SiKubernetes,
+  SiAmazon,
+  SiApachekafka,
 } from "react-icons/si";
 
 // Map skill icon names to their corresponding react-icons components
 const iconMap: Record<string, IconType> = {
+  // Frontend
   react: SiReact,
   nextjs: SiNextdotjs,
   typescript: SiTypescript,
@@ -33,16 +44,31 @@ const iconMap: Record<string, IconType> = {
   html5: SiHtml5,
   css3: SiCss3,
   framer: SiFramer,
+
+  // Backend
   nodejs: SiNodedotjs,
   express: SiExpress,
   python: SiPython,
+  php: SiPhp,
+  // java: no official icon in react-icons, will use fallback "JA"
+  spring: SiSpring,
+  django: SiDjango,
+  fastapi: SiFastapi,
+  laravel: SiLaravel,
   postgresql: SiPostgresql,
   mongodb: SiMongodb,
+  mysql: SiMysql,
+  redis: SiRedis,
   graphql: SiGraphql,
+
+  // Tools
   git: SiGit,
   docker: SiDocker,
+  kubernetes: SiKubernetes,
+  aws: SiAmazon,
+  kafka: SiApachekafka,
   figma: SiFigma,
-  // vscode doesn't have a logo in react-icons/si, will use fallback
+  // claude: no official icon, will use fallback "CL"
 };
 
 export default function Skills() {
