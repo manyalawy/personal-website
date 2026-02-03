@@ -69,11 +69,11 @@ export interface Portfolio {
 
 export const portfolio: Portfolio = {
   personalInfo: {
-    name: "Alex Rivera",
-    title: "Full-Stack Developer",
-    tagline: "Building elegant web experiences that blend technical precision with creative design",
-    bio: "Passionate full-stack developer with expertise in modern web technologies and a keen eye for user experience.",
-    siteUrl: "https://alexrivera.dev",
+    name: "Youssef El Manyalawy",
+    title: "Software Engineer | Full Stack Engineer",
+    tagline: "Building scalable systems and elegant solutions with modern web technologies",
+    bio: "Full-stack engineer with expertise in microservices architecture, frontend modernization, and AI-powered automation.",
+    siteUrl: "https://yourdomain.com", // TODO: Replace with your actual domain
     ogImage: "/og-image.png",
   },
 
@@ -82,70 +82,68 @@ export const portfolio: Portfolio = {
     { name: "React", icon: "react", category: "Frontend" },
     { name: "Next.js", icon: "nextjs", category: "Frontend" },
     { name: "TypeScript", icon: "typescript", category: "Frontend" },
-    { name: "JavaScript", icon: "javascript", category: "Frontend" },
-    { name: "Tailwind CSS", icon: "tailwindcss", category: "Frontend" },
     { name: "HTML5", icon: "html5", category: "Frontend" },
     { name: "CSS3", icon: "css3", category: "Frontend" },
-    { name: "Framer Motion", icon: "framer", category: "Frontend" },
+    { name: "Tailwind CSS", icon: "tailwindcss", category: "Frontend" },
 
     // Backend
     { name: "Node.js", icon: "nodejs", category: "Backend" },
-    { name: "Express", icon: "express", category: "Backend" },
     { name: "Python", icon: "python", category: "Backend" },
+    { name: "PHP", icon: "php", category: "Backend" },
+    { name: "Java", icon: "java", category: "Backend" },
+    { name: "Spring Boot", icon: "spring", category: "Backend" },
+    { name: "Django", icon: "django", category: "Backend" },
+    { name: "FastAPI", icon: "fastapi", category: "Backend" },
+    { name: "Laravel", icon: "laravel", category: "Backend" },
     { name: "PostgreSQL", icon: "postgresql", category: "Backend" },
     { name: "MongoDB", icon: "mongodb", category: "Backend" },
-    { name: "GraphQL", icon: "graphql", category: "Backend" },
+    { name: "MySQL", icon: "mysql", category: "Backend" },
+    { name: "Redis", icon: "redis", category: "Backend" },
 
     // Tools
-    { name: "Git", icon: "git", category: "Tools" },
     { name: "Docker", icon: "docker", category: "Tools" },
-    { name: "VS Code", icon: "vscode", category: "Tools" },
-    { name: "Figma", icon: "figma", category: "Tools" },
+    { name: "Kubernetes", icon: "kubernetes", category: "Tools" },
+    { name: "AWS", icon: "aws", category: "Tools" },
+    { name: "Git", icon: "git", category: "Tools" },
+    { name: "Kafka", icon: "kafka", category: "Tools" },
+    { name: "Claude Code", icon: "claude", category: "Tools" },
   ],
 
   workExperience: [
     {
-      title: "Senior Full-Stack Developer",
-      company: "TechFlow Solutions",
-      startDate: "2022-03",
+      title: "Senior Software Engineer",
+      company: "MiDash",
+      startDate: "2025-11",
       endDate: "Present",
       achievements: [
-        "Led development of customer-facing analytics dashboard serving 50K+ daily users",
-        "Reduced page load times by 60% through code splitting and lazy loading optimization",
-        "Mentored team of 4 junior developers on React best practices and TypeScript patterns",
-        "Architected and deployed microservices infrastructure using Docker and Kubernetes",
+        "Architected and developed MCP (Model Context Protocol) tools for trading, enabling AI-powered automation and streamlined trading workflows",
+        "Leveraged Claude Code to accelerate development velocity, implementing efficient coding practices that significantly improved team productivity",
+        "Designed and containerized microservices architecture using Docker, ensuring consistent development environments and seamless deployment across services",
+        "Built broker integrations with Capital.com and Coinbase APIs, enabling real-time trading capabilities and multi-platform portfolio management",
       ],
     },
     {
-      title: "Full-Stack Developer",
-      company: "Nexus Digital",
-      startDate: "2020-06",
-      endDate: "2022-02",
+      title: "Software Engineer II",
+      company: "Procore Technologies",
+      startDate: "2021-11",
+      endDate: "2025",
       achievements: [
-        "Built real-time collaboration features using WebSockets and Redis",
-        "Implemented comprehensive test coverage achieving 85% code coverage",
-        "Designed and developed RESTful APIs serving mobile and web clients",
+        "Spearheaded frontend modernization initiative, migrating legacy Backbone.js codebase to React, resulting in improved code maintainability and enhanced user experience",
+        "Engineered and optimized features for a construction management platform serving 900K+ users, driving performance improvements and delivering critical bug fixes",
+        "Designed and implemented an intelligent data deduplication algorithm that identifies and merges similar records, significantly improving data quality",
+        "Led third-party integrations with OneNotary and Honeycomb, expanding platform capabilities and improving observability across the system",
+        "Strengthened application security posture by implementing security best practices, conducting vulnerability assessments, and remediating critical security issues",
+        "Mentored interns and onboarded new team members, establishing documentation and best practices that accelerated ramp-up time",
       ],
     },
     {
-      title: "Frontend Developer",
-      company: "StartupHub Inc",
-      startDate: "2019-01",
-      endDate: "2020-05",
+      title: "Software Engineer Intern",
+      company: "Levelset",
+      startDate: "2021-06",
+      endDate: "2021-08",
       achievements: [
-        "Developed responsive landing pages with 95+ Lighthouse performance scores",
-        "Created reusable component library adopted across 3 product teams",
-        "Collaborated with designers to implement pixel-perfect UI implementations",
-      ],
-    },
-    {
-      title: "Junior Developer",
-      company: "WebCraft Agency",
-      startDate: "2017-08",
-      endDate: "2018-12",
-      achievements: [
-        "Contributed to 15+ client projects ranging from e-commerce to corporate sites",
-        "Improved site accessibility scores to WCAG AA compliance standards",
+        "Implemented JWT-based authentication system, improving API security and enabling stateless session management",
+        "Executed MySQL version upgrade with zero downtime, ensuring data integrity across 500K+ records",
       ],
     },
   ],
@@ -153,93 +151,57 @@ export const portfolio: Portfolio = {
   education: [
     {
       degree: "Bachelor of Science in Computer Science",
-      institution: "State University of Technology",
-      year: "2017",
-    },
-    {
-      degree: "Advanced Web Development Bootcamp",
-      institution: "CodeCraft Academy",
-      year: "2016",
+      institution: "The German University in Cairo",
+      year: "2022",
     },
   ],
 
   projects: [
     {
-      title: "TaskFlow Pro",
-      description: "A collaborative project management platform with real-time updates, drag-and-drop kanban boards, and team analytics. Features include task dependencies, time tracking, and customizable workflows.",
-      techStack: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind CSS", "WebSockets"],
-      liveUrl: "https://taskflow-demo.example.com",
-      repoUrl: "https://github.com/username/taskflow",
-      icon: "📋",
+      title: "MCP Trading Tools",
+      description: "AI-powered trading automation tools built with Model Context Protocol, enabling streamlined workflows and intelligent trading decisions through broker API integrations.",
+      techStack: ["TypeScript", "MCP", "Capital.com API", "Coinbase API", "Docker"],
+      icon: "📈",
     },
     {
-      title: "CodeSnippet Hub",
-      description: "Developer-focused snippet manager with syntax highlighting, tags, and search. Users can organize code snippets, share with teams, and discover community contributions.",
-      techStack: ["React", "Node.js", "MongoDB", "Express", "Prism.js"],
-      liveUrl: "https://codesnippet-hub.example.com",
-      repoUrl: "https://github.com/username/snippet-hub",
-      icon: "💻",
+      title: "Construction Platform Modernization",
+      description: "Led frontend migration from Backbone.js to React for a construction management platform serving 900K+ users, improving maintainability and performance.",
+      techStack: ["React", "TypeScript", "Backbone.js", "PostgreSQL"],
+      icon: "🏗️",
     },
     {
-      title: "Weather Dashboard",
-      description: "Beautiful weather application with 7-day forecasts, hourly predictions, and location-based alerts. Integrates multiple weather APIs for accurate data and features animated weather icons.",
-      techStack: ["Next.js", "TypeScript", "OpenWeather API", "Framer Motion"],
-      liveUrl: "https://weather-dash.example.com",
-      icon: "🌤️",
+      title: "Data Deduplication System",
+      description: "Intelligent algorithm for identifying and merging similar records in large datasets, improving data quality and reducing storage overhead.",
+      techStack: ["Python", "PostgreSQL", "Machine Learning"],
+      icon: "🔄",
     },
-    {
-      title: "FitTrack Analytics",
-      description: "Fitness tracking app with workout logging, progress visualization, and goal setting. Includes exercise database, custom routines, and personal records tracking.",
-      techStack: ["React Native", "Node.js", "PostgreSQL", "Chart.js"],
-      repoUrl: "https://github.com/username/fittrack",
-      icon: "💪",
-    },
-    {
-      title: "Recipe Finder",
-      description: "Smart recipe search engine that finds meals based on available ingredients. Features dietary filters, nutrition information, and step-by-step cooking instructions.",
-      techStack: ["Vue.js", "Python", "FastAPI", "Elasticsearch"],
-      liveUrl: "https://recipe-finder.example.com",
-      icon: "🍳",
-    },
-    {
-      title: "Markdown Notes",
-      description: "Minimalist note-taking app with markdown support, cloud sync, and full-text search. Features live preview, dark mode, and offline functionality.",
-      techStack: ["React", "TypeScript", "IndexedDB", "Marked.js"],
-      liveUrl: "https://md-notes.example.com",
-      repoUrl: "https://github.com/username/markdown-notes",
-      icon: "📝",
-    },
-    {
-      title: "Portfolio Generator",
-      description: "Tool for developers to quickly create customized portfolio websites. Choose from templates, add projects and experience, then export as a static site.",
-      techStack: ["Next.js", "Tailwind CSS", "MDX", "Sharp"],
-      repoUrl: "https://github.com/username/portfolio-gen",
-      icon: "🎨",
-    },
-    {
-      title: "Chat App",
-      description: "Real-time messaging application with private rooms, user presence, and message history. Built with WebSocket for instant delivery and typing indicators.",
-      techStack: ["Socket.io", "Node.js", "React", "Redis", "MongoDB"],
-      repoUrl: "https://github.com/username/chat-app",
-      icon: "💬",
-    },
+    // TODO: Add your personal projects here
+    // Example format:
+    // {
+    //   title: "Your Project Name",
+    //   description: "Project description (2-3 sentences)",
+    //   techStack: ["Tech1", "Tech2", "Tech3"],
+    //   liveUrl: "https://your-project.com", // optional
+    //   repoUrl: "https://github.com/yourusername/project", // optional
+    //   icon: "🚀",
+    // },
   ],
 
   about: {
     paragraphs: [
-      "I'm a full-stack developer who loves building web applications that feel both powerful and effortless to use. My journey started with a curiosity for how websites work, which quickly turned into a passion for crafting digital experiences that make people's lives easier.",
+      "I'm a full-stack engineer specializing in building scalable systems and modernizing legacy applications. Currently, I'm working on AI-powered trading automation at MiDash, where I architect microservices and integrate complex broker APIs to enable intelligent trading workflows.",
 
-      "Over the past 7+ years, I've worked with companies ranging from fast-paced startups to established tech firms, always focusing on clean code, intuitive design, and measurable impact. I believe the best software is invisible—it just works, and users don't have to think about it.",
+      "My experience at Procore Technologies involved leading a major frontend modernization initiative, migrating a legacy Backbone.js codebase to React for a platform serving 900K+ users. I've built everything from data deduplication algorithms to security-hardened integrations, always focusing on performance, maintainability, and user impact.",
 
-      "When I'm not coding, you'll find me exploring new coffee shops, contributing to open-source projects, or experimenting with the latest web technologies. I'm always learning, whether it's a new framework, design pattern, or approach to solving problems.",
+      "I'm passionate about leveraging modern tools like Claude Code to accelerate development velocity and using containerization to ensure consistent, reliable deployments. Whether it's implementing JWT authentication, optimizing database migrations with zero downtime, or mentoring team members, I thrive on solving challenging technical problems.",
 
-      "I'm currently open to new opportunities where I can contribute to meaningful projects and collaborate with talented teams. If you're building something interesting, let's talk!",
+      "With a Computer Science degree from The German University in Cairo and experience across the full stack—from React and Next.js to Spring Boot, Django, and FastAPI—I bring both breadth and depth to every project I tackle.",
     ],
   },
 
   contact: {
-    email: "alex.rivera@email.com",
-    github: "https://github.com/alexrivera",
-    linkedin: "https://linkedin.com/in/alexrivera",
+    email: "manyalawy@gmail.com",
+    github: "https://github.com/yourusername", // TODO: Replace with your actual GitHub username
+    linkedin: "https://linkedin.com/in/youssef-elmanyalawy",
   },
 };
