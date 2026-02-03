@@ -19,7 +19,7 @@ export default function Projects() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-surface-secondary rounded-xl overflow-hidden p-5 md:p-6 flex flex-col"
+              className="bg-surface-secondary rounded-xl overflow-hidden p-5 md:p-6 flex flex-col transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 hover:shadow-lg"
             >
               {/* Project logo/icon */}
               {project.logo ? (
@@ -65,7 +65,7 @@ export default function Projects() {
                     href={project.liveUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-accent text-sm font-medium hover:opacity-80 transition-opacity"
+                    className="text-accent text-sm font-medium hover:opacity-80 hover:translate-x-1 transition-all duration-300"
                   >
                     Live Demo
                   </a>
@@ -75,7 +75,7 @@ export default function Projects() {
                     href={project.repoUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-accent text-sm font-medium hover:opacity-80 transition-opacity"
+                    className="text-accent text-sm font-medium hover:opacity-80 hover:translate-x-1 transition-all duration-300"
                   >
                     Source Code
                   </a>
