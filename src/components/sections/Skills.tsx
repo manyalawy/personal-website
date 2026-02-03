@@ -85,7 +85,7 @@ export default function Skills() {
                       className="group flex flex-col items-center justify-center p-3 md:p-4 bg-surface-secondary border border-border rounded-lg transition-all duration-300 hover:border-accent hover:scale-105 hover:-translate-y-1"
                     >
                       {/* Display actual technology logo or fallback to 2-letter placeholder */}
-                      <div className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-accent/10 flex items-center justify-center mb-2 transition-transform duration-300 group-hover:scale-110">
+                      <div className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-accent/10 flex items-center justify-center mb-2 transition-transform duration-300 group-hover:scale-110" aria-hidden="true">
                         {IconComponent ? (
                           <IconComponent className="w-7 h-7 md:w-8 md:h-8 text-accent" />
                         ) : (

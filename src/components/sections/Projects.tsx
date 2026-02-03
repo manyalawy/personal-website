@@ -30,11 +30,12 @@ export default function Projects() {
                   <img
                     src={project.logo}
                     alt={`${project.title} logo`}
+                    loading="lazy"
                     className="w-full h-full object-contain"
                   />
                 </div>
               ) : (
-                <div className="w-12 h-12 mb-4 rounded-lg bg-gradient-to-br from-accent/20 to-accent/5 flex items-center justify-center">
+                <div className="w-12 h-12 mb-4 rounded-lg bg-gradient-to-br from-accent/20 to-accent/5 flex items-center justify-center" aria-hidden="true">
                   <div className="w-6 h-6 rounded bg-accent/30" />
                 </div>
               )}
@@ -68,6 +69,7 @@ export default function Projects() {
                     href={project.liveUrl}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label={`View live demo of ${project.title}`}
                     className="text-accent text-sm font-medium hover:opacity-80 hover:translate-x-1 transition-all duration-300"
                   >
                     Live Demo
@@ -78,6 +80,7 @@ export default function Projects() {
                     href={project.repoUrl}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label={`View source code for ${project.title}`}
                     className="text-accent text-sm font-medium hover:opacity-80 hover:translate-x-1 transition-all duration-300"
                   >
                     Source Code

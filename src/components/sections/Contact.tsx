@@ -27,9 +27,10 @@ export default function Contact() {
           {/* Email link */}
           <a
             href={`mailto:${contact.email}`}
+            aria-label={`Send email to ${contact.email}`}
             className="group flex flex-col items-center justify-center bg-surface-secondary rounded-lg p-4 md:p-6 min-w-[160px] border-2 border-transparent transition-all duration-300 hover:border-accent hover:scale-105 hover:-translate-y-1 hover:shadow-md"
           >
-            <div className="text-3xl md:text-4xl mb-2 transition-transform duration-300 group-hover:scale-110">✉️</div>
+            <div className="text-3xl md:text-4xl mb-2 transition-transform duration-300 group-hover:scale-110" aria-hidden="true">✉️</div>
             <span className="text-accent font-medium text-sm md:text-base">
               Email
             </span>
@@ -43,9 +44,10 @@ export default function Contact() {
             href={contact.github}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="View GitHub profile"
             className="group flex flex-col items-center justify-center bg-surface-secondary rounded-lg p-4 md:p-6 min-w-[160px] border-2 border-transparent transition-all duration-300 hover:border-accent hover:scale-105 hover:-translate-y-1 hover:shadow-md"
           >
-            <div className="text-3xl md:text-4xl mb-2 transition-transform duration-300 group-hover:scale-110">💻</div>
+            <div className="text-3xl md:text-4xl mb-2 transition-transform duration-300 group-hover:scale-110" aria-hidden="true">💻</div>
             <span className="text-accent font-medium text-sm md:text-base">
               GitHub
             </span>
@@ -59,9 +61,10 @@ export default function Contact() {
             href={contact.linkedin}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Connect on LinkedIn"
             className="group flex flex-col items-center justify-center bg-surface-secondary rounded-lg p-4 md:p-6 min-w-[160px] border-2 border-transparent transition-all duration-300 hover:border-accent hover:scale-105 hover:-translate-y-1 hover:shadow-md"
           >
-            <div className="text-3xl md:text-4xl mb-2 transition-transform duration-300 group-hover:scale-110">🔗</div>
+            <div className="text-3xl md:text-4xl mb-2 transition-transform duration-300 group-hover:scale-110" aria-hidden="true">🔗</div>
             <span className="text-accent font-medium text-sm md:text-base">
               LinkedIn
             </span>
