@@ -9,7 +9,7 @@ import Contact from "@/components/sections/Contact";
 export default function Home() {
   return (
     <div className="min-h-screen bg-surface">
-      <main>
+      <main id="main-content">
         {/* Hero Section - full viewport, bg-surface */}
         <Hero />
 
