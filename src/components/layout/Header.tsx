@@ -32,7 +32,7 @@ export function Header() {
             <a
               key={link.href}
               href={link.href}
-              className="text-text-secondary hover:text-accent transition-colors relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-accent after:transition-all after:duration-300 hover:after:w-full"
+              className="px-2 py-2 text-text-secondary hover:text-accent transition-colors relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-accent after:transition-all after:duration-300 hover:after:w-full"
             >
               {link.label}
             </a>
@@ -46,7 +46,7 @@ export function Header() {
           {/* Mobile menu button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+            className="md:hidden p-3 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
             aria-label="Toggle menu"
             aria-expanded={mobileMenuOpen}
           >

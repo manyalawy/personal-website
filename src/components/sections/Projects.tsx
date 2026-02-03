@@ -70,7 +70,7 @@ export default function Projects() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={`View live demo of ${project.title}`}
-                    className="text-accent text-sm font-medium hover:opacity-80 hover:translate-x-1 transition-all duration-300"
+                    className="inline-flex items-center min-h-[44px] text-accent text-sm font-medium hover:opacity-80 hover:translate-x-1 transition-all duration-300"
                   >
                     Live Demo
                   </a>
@@ -81,7 +81,7 @@ export default function Projects() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={`View source code for ${project.title}`}
-                    className="text-accent text-sm font-medium hover:opacity-80 hover:translate-x-1 transition-all duration-300"
+                    className="inline-flex items-center min-h-[44px] text-accent text-sm font-medium hover:opacity-80 hover:translate-x-1 transition-all duration-300"
                   >
                     Source Code
                   </a>
