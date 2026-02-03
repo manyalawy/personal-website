@@ -1,4 +1,7 @@
+"use client";
+
 import { portfolio } from "@/data/portfolio";
+import { ScrollReveal } from "@/components/motion/ScrollReveal";
 
 export default function Hero() {
   const { name, title, tagline } = portfolio.personalInfo;
@@ -18,7 +21,7 @@ export default function Hero() {
       />
 
       {/* Hero content */}
-      <div className="relative z-10 text-center max-w-5xl mx-auto">
+      <ScrollReveal className="relative z-10 text-center max-w-5xl mx-auto">
         {/* Name - Large and prominent */}
         <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-text-primary mb-4 md:mb-6">
           {name}
@@ -39,7 +42,7 @@ export default function Hero() {
           {/* Primary CTA - View Projects */}
           <a
             href="#projects"
-            className="inline-flex items-center justify-center px-8 py-3 md:px-10 md:py-4 text-base md:text-lg font-semibold text-white bg-accent rounded-lg hover:opacity-90 transition-opacity duration-200 min-w-[200px]"
+            className="inline-flex items-center justify-center px-8 py-3 md:px-10 md:py-4 text-base md:text-lg font-semibold text-white bg-accent rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-accent/25 min-w-[200px]"
           >
             View Projects
           </a>
@@ -47,12 +50,12 @@ export default function Hero() {
           {/* Secondary CTA - Get in Touch */}
           <a
             href="#contact"
-            className="inline-flex items-center justify-center px-8 py-3 md:px-10 md:py-4 text-base md:text-lg font-semibold text-text-primary border-2 border-border rounded-lg hover:border-accent hover:text-accent transition-all duration-200 min-w-[200px]"
+            className="inline-flex items-center justify-center px-8 py-3 md:px-10 md:py-4 text-base md:text-lg font-semibold text-text-primary border-2 border-border rounded-lg transition-all duration-300 hover:border-accent hover:text-accent hover:scale-105 min-w-[200px]"
           >
             Get in Touch
           </a>
         </div>
-      </div>
+      </ScrollReveal>
     </section>
   );
 }
