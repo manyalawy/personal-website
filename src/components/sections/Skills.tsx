@@ -29,9 +29,11 @@ import {
   SiMysql,
   SiRedis,
   SiKubernetes,
-  SiAmazon,
   SiApachekafka,
+  SiClaude,
 } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
+
 
 // Map skill icon names to their corresponding react-icons components
 const iconMap: Record<string, IconType> = {
@@ -50,7 +52,7 @@ const iconMap: Record<string, IconType> = {
   express: SiExpress,
   python: SiPython,
   php: SiPhp,
-  // java: no official icon in react-icons, will use fallback "JA"
+  java: FaJava,
   spring: SiSpring,
   django: SiDjango,
   fastapi: SiFastapi,
@@ -65,9 +67,9 @@ const iconMap: Record<string, IconType> = {
   git: SiGit,
   docker: SiDocker,
   kubernetes: SiKubernetes,
-  aws: SiAmazon,
   kafka: SiApachekafka,
   figma: SiFigma,
+  claude: SiClaude
   // claude: no official icon, will use fallback "CL"
 };
 

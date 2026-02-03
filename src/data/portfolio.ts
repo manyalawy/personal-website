@@ -126,7 +126,7 @@ export const portfolio: Portfolio = {
       title: "Software Engineer II",
       company: "Procore Technologies",
       startDate: "2021-11",
-      endDate: "2025",
+      endDate: "2025-11",
       achievements: [
         "Spearheaded frontend modernization initiative, migrating legacy Backbone.js codebase to React, resulting in improved code maintainability and enhanced user experience",
         "Engineered and optimized features for a construction management platform serving 900K+ users, driving performance improvements and delivering critical bug fixes",
