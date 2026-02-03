@@ -1,4 +1,7 @@
+"use client";
+
 import { portfolio } from "@/data/portfolio";
+import { ScrollReveal } from "@/components/motion/ScrollReveal";
 
 export default function Education() {
   return (
@@ -6,7 +9,7 @@ export default function Education() {
       id="education"
       className="py-24 md:py-32 bg-surface"
     >
-      <div className="max-w-6xl mx-auto px-4 md:px-8 lg:px-16">
+      <ScrollReveal className="max-w-6xl mx-auto px-4 md:px-8 lg:px-16">
         <h2 className="text-3xl md:text-4xl font-bold text-text-primary mb-16">
           Education
         </h2>
@@ -29,7 +32,7 @@ export default function Education() {
             </div>
           ))}
         </div>
-      </div>
+      </ScrollReveal>
     </section>
   );
 }

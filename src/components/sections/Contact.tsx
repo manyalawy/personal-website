@@ -1,4 +1,7 @@
+"use client";
+
 import { portfolio } from "@/data/portfolio";
+import { ScrollReveal } from "@/components/motion/ScrollReveal";
 
 export default function Contact() {
   const { contact } = portfolio;
@@ -8,7 +11,7 @@ export default function Contact() {
       id="contact"
       className="bg-surface py-24 md:py-32 px-4 md:px-8 lg:px-16 scroll-mt-16"
     >
-      <div className="max-w-4xl mx-auto">
+      <ScrollReveal className="max-w-4xl mx-auto">
         {/* Section heading */}
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-text-primary mb-6 md:mb-8 text-center">
           Get in Touch
@@ -67,7 +70,7 @@ export default function Contact() {
             </span>
           </a>
         </div>
-      </div>
+      </ScrollReveal>
     </section>
   );
 }

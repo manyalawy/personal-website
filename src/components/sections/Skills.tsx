@@ -1,5 +1,8 @@
+"use client";
+
 import { portfolio } from "@/data/portfolio";
 import { IconType } from "react-icons";
+import { ScrollReveal } from "@/components/motion/ScrollReveal";
 import {
   SiReact,
   SiNextdotjs,
@@ -60,14 +63,14 @@ export default function Skills() {
       id="skills"
       className="py-24 md:py-32 bg-surface"
     >
-      <div className="max-w-6xl mx-auto px-4 md:px-8 lg:px-16">
+      <ScrollReveal className="max-w-6xl mx-auto px-4 md:px-8 lg:px-16">
         <h2 className="text-3xl md:text-4xl font-bold text-text-primary mb-16">
           Skills
         </h2>
 
         <div className="space-y-12">
-          {Object.entries(skillsByCategory).map(([category, skills]) => (
-            <div key={category}>
+          {Object.entries(skillsByCategory).map(([category, skills], categoryIndex) => (
+            <ScrollReveal key={category} delay={categoryIndex * 0.1}>
               <h3 className="text-xl font-semibold text-text-secondary mb-6">
                 {category}
               </h3>
@@ -98,10 +101,10 @@ export default function Skills() {
                   );
                 })}
               </div>
-            </div>
+            </ScrollReveal>
           ))}
         </div>
-      </div>
+      </ScrollReveal>
     </section>
   );
 }

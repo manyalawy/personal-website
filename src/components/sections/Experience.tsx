@@ -1,4 +1,7 @@
+"use client";
+
 import { portfolio } from "@/data/portfolio";
+import { ScrollReveal } from "@/components/motion/ScrollReveal";
 
 export default function Experience() {
   // Format date for display (e.g., "2022-03" -> "Mar 2022")
@@ -19,7 +22,7 @@ export default function Experience() {
       id="experience"
       className="py-24 md:py-32 bg-surface-secondary"
     >
-      <div className="max-w-6xl mx-auto px-4 md:px-8 lg:px-16">
+      <ScrollReveal className="max-w-6xl mx-auto px-4 md:px-8 lg:px-16">
         <h2 className="text-3xl md:text-4xl font-bold text-text-primary mb-16">
           Experience
         </h2>
@@ -65,7 +68,7 @@ export default function Experience() {
             </div>
           ))}
         </div>
-      </div>
+      </ScrollReveal>
     </section>
   );
 }

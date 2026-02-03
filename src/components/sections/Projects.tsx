@@ -1,4 +1,7 @@
+"use client";
+
 import { portfolio } from "@/data/portfolio";
+import { ScrollReveal } from "@/components/motion/ScrollReveal";
 
 export default function Projects() {
   const { projects } = portfolio;
@@ -8,7 +11,7 @@ export default function Projects() {
       id="projects"
       className="bg-surface-secondary py-24 md:py-32 px-4 md:px-8 lg:px-16 scroll-mt-16"
     >
-      <div className="max-w-6xl mx-auto">
+      <ScrollReveal className="max-w-6xl mx-auto">
         {/* Section heading */}
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-text-primary mb-12 md:mb-16 text-center">
           Projects
@@ -84,7 +87,7 @@ export default function Projects() {
             </div>
           ))}
         </div>
-      </div>
+      </ScrollReveal>
     </section>
   );
 }
