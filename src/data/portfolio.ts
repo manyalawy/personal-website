@@ -9,6 +9,8 @@ export interface PersonalInfo {
   title: string;
   tagline: string;
   bio: string;
+  siteUrl: string;
+  ogImage: string;
 }
 
 export interface Skill {
@@ -71,6 +73,8 @@ export const portfolio: Portfolio = {
     title: "Full-Stack Developer",
     tagline: "Building elegant web experiences that blend technical precision with creative design",
     bio: "Passionate full-stack developer with expertise in modern web technologies and a keen eye for user experience.",
+    siteUrl: "https://alexrivera.dev",
+    ogImage: "/og-image.png",
   },
 
   skills: [
