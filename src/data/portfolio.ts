@@ -158,33 +158,34 @@ export const portfolio: Portfolio = {
 
   projects: [
     {
-      title: "MCP Trading Tools",
-      description: "AI-powered trading automation tools built with Model Context Protocol, enabling streamlined workflows and intelligent trading decisions through broker API integrations.",
-      techStack: ["TypeScript", "MCP", "Capital.com API", "Coinbase API", "Docker"],
-      icon: "📈",
+      title: "fitflip",
+      description: "Bilingual marketplace platform (Arabic/English with RTL support) featuring real-time chat, listing management, and Supabase Row-Level Security. Built with Next.js 16 server actions and next-intl for seamless localization.",
+      techStack: ["Next.js", "TypeScript", "Supabase", "Tailwind CSS", "shadcn/ui", "i18n"],
+      liveUrl: "https://fitflip.vercel.app",
+      repoUrl: "https://github.com/manyalawy/fitflip",
+      icon: "🛍️",
     },
     {
-      title: "Construction Platform Modernization",
-      description: "Led frontend migration from Backbone.js to React for a construction management platform serving 900K+ users, improving maintainability and performance.",
-      techStack: ["React", "TypeScript", "Backbone.js", "PostgreSQL"],
-      icon: "🏗️",
+      title: "nawy",
+      description: "Apartment listing platform built on a true microservices architecture — 3 NestJS services (gateway, auth, apartments) with Docker network isolation, Meilisearch full-text search, Redis rate limiting, and two independent PostgreSQL databases.",
+      techStack: ["NestJS", "Next.js", "PostgreSQL", "Meilisearch", "Redis", "Docker", "Prisma"],
+      repoUrl: "https://github.com/manyalawy/nawy",
+      icon: "🏠",
     },
     {
-      title: "Data Deduplication System",
-      description: "Intelligent algorithm for identifying and merging similar records in large datasets, improving data quality and reducing storage overhead.",
-      techStack: ["Python", "PostgreSQL", "Machine Learning"],
-      icon: "🔄",
+      title: "ballers-app",
+      description: "Mobile sports social app where users create and join matches with real-time chat, geolocation-based discovery, phone OTP auth, and automated CI/CD database migrations via GitHub Actions.",
+      techStack: ["React Native", "Expo", "TypeScript", "Supabase", "Zustand", "React Query"],
+      repoUrl: "https://github.com/manyalawy/ballers-app",
+      icon: "⚽",
     },
-    // TODO: Add your personal projects here
-    // Example format:
-    // {
-    //   title: "Your Project Name",
-    //   description: "Project description (2-3 sentences)",
-    //   techStack: ["Tech1", "Tech2", "Tech3"],
-    //   liveUrl: "https://your-project.com", // optional
-    //   repoUrl: "https://github.com/yourusername/project", // optional
-    //   icon: "🚀",
-    // },
+    {
+      title: "football-codename",
+      description: "Real-time multiplayer browser game — a soccer-themed take on Codenames with 400+ football terms. Firebase Firestore powers live game state sync across spymasters and operatives.",
+      techStack: ["React", "Firebase", "Vite", "JavaScript"],
+      repoUrl: "https://github.com/manyalawy/football-codename",
+      icon: "🎮",
+    },
   ],
 
   about: {
@@ -201,7 +202,7 @@ export const portfolio: Portfolio = {
 
   contact: {
     email: "manyalawy@gmail.com",
-    github: "https://github.com/yourusername", // TODO: Replace with your actual GitHub username
+    github: "https://github.com/manyalawy",
     linkedin: "https://linkedin.com/in/youssef-elmanyalawy",
   },
 };
